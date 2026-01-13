@@ -266,10 +266,10 @@ body {
     margin: auto;
 }
 .contact-img {
-    width: 80px;
-    height: 100px;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
+    border-radius: 50%;
     flex-shrink: 0;
 }
 .contact-info {
@@ -291,6 +291,7 @@ body {
     background: #020617;
     color: var(--text-light)
 }
+
 
 
 
