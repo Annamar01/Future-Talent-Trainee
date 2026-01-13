@@ -254,12 +254,37 @@ body {
         max-width: 100%;
     }
 }
+.contact-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: auto;
+}
+.contact-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contact-info {
+    flex: 1;
+    color: #f9fafb;
+}
+.contact-info p {
+    margin: 5px 0;
+}
 .footer {
     text-align: center;
     padding: 1.5rem;
     background: #020617;
     color: var(--text-light)
 }
+
 
 
 
