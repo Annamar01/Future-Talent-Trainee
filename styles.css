@@ -279,10 +279,13 @@ body {
 .contact-info p {
     margin: 5px 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+    .contact-box {
+        flex-direction: column;
+        text-align: center;
+    }
     .contact-img {
-        width: 70px;
-        height: 70px;
+        margin-bottom: 10px;
     }
 }
 .footer {
@@ -291,6 +294,7 @@ body {
     background: #020617;
     color: var(--text-light)
 }
+
 
 
 
